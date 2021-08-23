@@ -1,0 +1,749 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 62.5%;
+    line-height: 1.6em;
+    background-color: #A6774E;
+
+}
+
+/* Estilos de index.html */
+
+
+
+/* Header */
+
+.logo{
+    padding-left: 10px ;
+    width: 5%;
+}
+
+.container-fluid{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+
+/* Fin del Header */
+
+
+
+
+/* Contenedor 1 */
+
+
+
+.contenedor-1 > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.introduccion-index {
+    grid-area: introduccion-index;
+    background-image: url(assets/fondo-introduccion.jpg) ;
+    background-size: cover;
+}
+.introduccion-index h1{
+    font-size: 4rem;
+    margin-top: 15px;
+    text-decoration: underline;
+    
+    
+}
+.introduccion-index p{
+    font-size: 1.2rem;
+    padding: 30px;
+    line-height: 30px;
+    background-color: #565902;
+    margin-top: 40px ;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+  
+.unidades-index {
+    grid-area: unidades-index;
+    background-image: url(assets/fondo-unidades.jpg);
+}
+.unidades-index h2{
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-top: 15px ;
+}
+.unidades-index p{
+    font-size: 1.2rem;
+    line-height: 20px;
+    padding: 25px;
+    margin-top: 24px;
+    line-height: 30px;
+    background-color:#78A4BF ;
+    font-weight: bold;
+    text-align: justify;
+}
+  
+.temario-index {
+    grid-area: temario-index;
+    background-color: #C4E1F2;
+    list-style: none;
+    background-image: linear-gradient(to left, #ff7e00, #212121);
+    
+    
+    
+}
+.temario-index h3{
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-top: 15px ;
+
+}
+.temario-index li{
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 35px;
+    margin-top: 24px;
+    font-weight: bold;
+
+}
+  
+.info-index {
+    grid-area: info-index;
+    background-color: #78A4BF;
+    background-image: radial-gradient(closest-side, #565902, #78A4BF, #BF8C4E);
+    font-family: 'Merriweather', serif;
+}
+.info-index h2{
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-top: 15px ;
+
+}
+.info-index p{
+    font-size: 1.2rem;
+    line-height: 20px;
+    padding: 25px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+  
+ 
+  
+.contenedor-1{
+    display: grid;
+    gap: 10px;
+    grid-template:
+      "introduccion-index introduccion-index"  500px
+      "unidades-index temario-index"  400px
+      "info-index info-index"   300px
+      
+}
+/* Fin contenedor 1 */
+
+
+
+
+
+/* Media Queries */
+@media (min-width: 600px) {
+    .contenedor-1 {
+      
+  
+      grid-template:
+      "introduccion-index" auto
+      "unidades-index" auto
+      "temario-index"  auto
+      "info-index" auto /
+        auto  ;
+    }
+}
+@media (min-width: 900px) {
+        .contenedor-1 {
+          grid-template:
+            "introduccion-index info-index"  10px
+            "temario-index unidades-index" 10px
+             /
+            10px   10px; 
+        }
+ }
+ @media (min-width: 901px) {
+    .contenedor-1{
+        grid-template:
+      "introduccion-index introduccion-index"  auto
+      "unidades-index temario-index"  auto
+      "info-index info-index"   auto /
+      auto    auto
+    }
+ }
+@media (min-width: 50px) {
+        .contenedor-1{
+            grid-template:
+          "introduccion-index introduccion-index"  auto
+          "unidades-index temario-index"  auto
+          "info-index info-index"   auto /
+          auto    auto
+        }
+  
+    
+    
+  }
+  /* Media Queries */
+
+ 
+ 
+ 
+ 
+  /* Footer */
+
+ 
+
+.footer-index {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+ .logo-footer .logo-footer-imagen{
+    width: 20%;
+    
+}
+ 
+.h3-index{
+    font-size: 1.2rem;
+    padding-top: 35px;
+    
+}
+.redes-footer-index{
+    padding-top: 30px;
+}
+.link-contactos{
+    font-size: 1.2rem;
+    padding-top: 35px;
+}
+
+.firma{
+    font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 2px;
+    padding-top: 35px;
+    
+}
+
+
+
+    
+/* Fin del Footer */
+
+
+
+/* Fin de Estilos de index.html */
+
+
+
+
+/* Estilos de autores.html */
+
+
+
+
+
+/* Inicio del Header */
+
+.header-autores{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 1.2rem;
+    border: 10px 10px;
+}
+
+.header-autores a{
+
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.header-autores .logo{
+    
+    padding-left: 15px;
+}
+
+/* Fin Header */
+
+/* Inicio Contenedor 2 */
+
+.contenedor-2 > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    text-align: center;
+}
+
+  
+.introduccion-autores {
+    grid-area: introduccion-autores;
+    background-color: #78A4BF;
+}
+  
+.autores-james {
+    grid-area: autores-james;
+    background-color: #C4E1F2;
+}
+  
+.autores-lothar {
+    grid-area: autores-lothar;
+    background-color: #565902;
+}
+  
+.autores-saleem {
+    grid-area: autores-saleem;
+    background-color: #BF8C4E;
+}
+
+.link-volver{
+    grid-area: link-volver;
+    font-size: 1.2rem;
+    
+}
+  
+
+  
+/* .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+      "introduccion-autores"  100px
+      "autores-james"  50px
+      "autores-lothar"   auto
+      "autores-saleem" 100px
+      "link-volver"   50px
+      
+} */
+
+
+.h1-autores{
+    font-size: 4rem;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    padding-top: 25px;
+
+}
+.h2-autores{
+    font-size: 3rem;
+    text-decoration: underline;
+    padding: 30px 1px;
+
+}
+
+.p-introduccion{
+    font-size: 1.2rem;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.p-autores{
+    
+    font-size: 1.2rem;
+    line-height: 30px;
+    padding-top: 25px;
+    text-align: justify;
+
+
+}
+.james .lothar .saleem{
+    width: 2%;
+    
+}
+
+/* Fin Contenedor 2 */
+
+
+/* Inicio del Footer */
+
+
+.footer-autores {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+ .logo-footer .logo-footer-imagen{
+    width: 20%;
+    
+}
+ 
+.h3-index{
+    font-size: 1.2rem;
+    padding-top: 35px;
+    
+}
+.redes-footer-index{
+    padding-top: 30px;
+}
+.link-contactos{
+    font-size: 1.2rem;
+    padding-top: 35px;
+}
+
+.firma{
+    font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 0.5px;
+    padding-top: 35px;
+    
+}
+
+
+/* Fin del Footer */
+
+
+
+/* Fin de Estilos de autores.html */
+
+
+
+/* Inicio Header de Unidades */
+
+.header-unidades{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 1.2rem;
+    border: 10px 10px;
+}
+
+
+.header-unidades a{
+
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.header-unidades .inicio-unidades{
+    padding-left: 1000px;
+}
+
+.header-unidades .logo{
+    
+    padding-left: 15px;
+}
+
+
+
+/* Fin Header Unidades */
+
+
+/* Inicio Estilos .contenedor-unidades */
+ 
+.contenderor-unidades > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  
+  .h1-unidades {
+    grid-area: h1-unidades;
+    background-color: #BF8C4E;
+  }
+  
+  .contenido-unidades {
+    grid-area: contenido-unidades;
+    background-color: #565902;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  
+
+  .contenido-unidades:hover{
+      animation: colorFondo 4s;
+      
+  }
+
+  @keyframes colorFondo{
+
+    0%{
+        background-color: #C4E1F2;
+    }
+
+    50%{
+        background-color: #78A4BF;
+    }
+    
+    100%{
+        background-color: #565902;
+        border-radius: 3%;
+    }
+
+  }
+  
+  .video-recomendado {
+    grid-area: video-recomendado;
+    background-color: #C4E1F2;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  
+  .link-volver-unidades {
+    /* grid-area: link-volver-unidades; */
+    background-color: #f5f5f5;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 30px;
+    
+  }
+  
+
+  
+  .contenedor-unidades {
+    display: grid;
+    gap: 10px;
+    
+    grid-template:
+      "h1-unidades"  auto
+      "contenido-unidades"  auto
+      "video-recomendado"    auto
+      /* "link-volver-unidades" 50px */
+}
+
+.h1-unidades{
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    padding-top: 45px;
+}
+
+.h2-unidades{
+
+    font-size: 3rem;
+    text-decoration: underline;
+    padding: 30px 1px;
+    text-align: center;
+
+}
+
+.h3-unidades{
+    padding: 25px 1px;
+    text-decoration: underline;
+}
+
+.p-unidades{
+    font-size: 1.2rem;
+    line-height: 30px;
+    padding-top: 25px;
+    padding-left: 15px;
+    text-align: justify;
+    
+
+}
+
+
+.contenido-unidades img{
+    float: left;
+    padding-right: 30px;
+    width: 50%;
+
+}
+
+
+.img-unidad-1:hover{
+    
+    transform:rotate(360deg);
+    transition: 4s;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* Fin estilos .contenedor-unidades */
+
+.link-volver-unidad-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-volver-unidad-3{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.link-volver-unidad-1{
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+
+.link-volver-unidad-1, .link-volver-unidad-2, .link-volver-unidad-3 {
+    /* grid-area: link-volver-unidades; */
+    background-color: #f5f5f5;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.comienzo-unidad-3{
+
+margin-left: 400px;
+
+}
+
+.comienzo-unidad-1{
+    margin-right: 400px ;
+}
+
+
+/* Inicio footer-unidades */
+
+.footer-unidades {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+ .logo-footer .logo-footer-imagen{
+    width: 20%;
+    
+}
+ 
+
+.redes-footer-index{
+    padding-top: 30px;
+}
+.link-contactos{
+    font-size: 1.2rem;
+    padding-top: 35px;
+}
+
+.firma{
+    font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 0.5px;
+    padding-top: 35px;
+    
+}
+
+
+
+/* Fin  footer-unidades */
+
+
+
+/* Fin Estilos de unidad-1-2-3.html */
+
+
+
+/* Inicio Estilos contactos.html */
+
+
+/* Inicio header contactos */
+
+.header-contactos{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 1.2rem;
+    border: 10px 10px;
+}
+
+.header-contactos a{
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.header-contactos img{
+    padding-left: 25px;
+}
+
+/* Fin header contactos */
+
+.contenedor-4{
+    background-color:#85aedd;
+}
+
+.h1-contactos{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+.volver-contactos{
+
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.p-contactos{
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+
+   
+
+/* Inicio Footer de contactos.html */
+
+
+.footer-contactos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f5f5; 
+   
+}
+
+ .logo-footer .logo-footer-imagen{
+    width: 20%;
+    
+}
+ 
+
+.redes-footer-index{
+    padding-top: 30px;
+}
+.link-contactos{
+    font-size: 1.2rem;
+    padding-top: 35px;
+}
+
+.firma{
+    font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 0.5px;
+    padding-top: 35px;
+    
+}
+
+/* Fin Footer Contactos */
+
+/* Fin Estilos contactos.html */
+

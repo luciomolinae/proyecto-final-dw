@@ -1,0 +1,9 @@
+$prueba: (
+    primary: #BBE2F2,
+    secondary: #609BB3,
+    terciary: #BFD3DB,
+);
+
+.index-intro{
+    background-color: map-get($map: $prueba , $key: secondary );
+}

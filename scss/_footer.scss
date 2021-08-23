@@ -1,0 +1,57 @@
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    color: #fff;
+    background:#262626;
+    justify-content:space-around;
+}
+    
+    
+    
+    .logo{
+        width: 10%;
+        img{
+           width: 100%;
+        }
+    }
+    .explore{
+        text-align: center;
+        h2{
+            font-size: $font-size-h1;
+            text-align: center;
+        }
+        .box{
+            text-align: center;
+            list-style: none;
+            li{
+                font-size: $font-size-h2;
+                a{
+                    color:white;
+                    text-decoration: none;
+                }
+                a:hover{
+                    background-color: $colour-secondary;
+                }
+        }
+        }
+    }
+
+    .footer-2{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+    
+        background:#262626;
+        padding: 50px;
+    }
+
+    .firma{
+        align-self: center;
+        p{
+            font-size: $font-size-p;
+        }
+    }
+    
+
+       
+

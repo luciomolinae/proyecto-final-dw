@@ -1,0 +1,28 @@
+.header{
+    background-color: $colour-secondary;
+    margin-bottom: 70px;
+    .logo{
+        width: $width-imagen-xs;
+        padding-left: 10px;
+    }
+    .container-fluid{
+        font-size: 15rem;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+
+        .drop{
+        font-size: 5rem;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        }
+        
+        
+    }
+}
+
+.items{
+    font-size: $font-size-h1;
+}
+

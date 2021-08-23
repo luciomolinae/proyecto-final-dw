@@ -1,0 +1,57 @@
+
+.red-tit{
+    h1{
+        font-size: $font-size-h1;
+    }
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #0000;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all .4s;
+}
+.icon:nth-child(1):hover{
+    box-shadow: 0px 0px 10px #0E34A0;
+}
+.icon:nth-child(2):hover{
+    box-shadow: 0px 0px 10px #750D37;
+}
+.icon:nth-child(3):hover{
+    box-shadow: 0px 0px 10px #04F06A;
+}
+.icon:nth-child(4):hover{
+    box-shadow: 0px 0px 10px #9AC4F8;
+}
+.fa-facebook-f{
+    color: #0E34A0;
+    filter: drop-shadow(0px 0px 10px #0E34A0);
+
+} 
+.fa-instagram{
+    color: #750D37;
+    filter: drop-shadow(0px 0px 10px #750D37);
+}
+
+.fa-whatsapp{
+    color: #04F06A;
+    filter: drop-shadow(0px 0px 10px #04F06A);
+    
+}
+.fa-twitter{
+    color: #9AC4F8;
+    filter: drop-shadow(0px 0px 10px #9AC4F8);
+}
