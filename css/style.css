@@ -85,6 +85,9 @@ body {
 .firma p {
   font-size: 2rem;
 }
+.firma .link-footer {
+  font-size: 2rem;
+}
 
 .intro-auto {
   font-family: "Merriweather", serif;
