@@ -210,6 +210,7 @@ body {
 
 .uni-dos h1 {
   font-size: 4rem;
+  text-decoration: underline;
 }
 .uni-dos h2 {
   font-size: 3rem;
@@ -230,6 +231,7 @@ body {
 
 .uni-tres h1 {
   font-size: 4rem;
+  text-decoration: underline;
 }
 .uni-tres h2 {
   font-size: 3rem;
