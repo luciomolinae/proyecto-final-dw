@@ -181,16 +181,15 @@ body {
 
 .uni-tit h1 {
   font-size: 4rem;
+  text-decoration: underline;
 }
 
-.uni-uno {
-  padding-top: 100px;
-}
 .uni-uno h1 {
   font-size: 4rem;
 }
 .uni-uno h2 {
   font-size: 3rem;
+  text-decoration: underline;
 }
 .uni-uno h3 {
   font-size: 3rem;
@@ -209,38 +208,50 @@ body {
   background-color: #609BB3;
 }
 
-uni-dos h1 {
+.uni-dos h1 {
   font-size: 4rem;
 }
-uni-dos h2 {
+.uni-dos h2 {
   font-size: 3rem;
 }
-uni-dos h3 {
+.uni-dos h3 {
   font-size: 3rem;
 }
-uni-dos h4 {
+.uni-dos h4 {
   font-size: 3rem;
 }
-uni-dos p {
+.uni-dos p {
   font-size: 2rem;
   text-align: justify;
+}
+.uni-dos img {
+  width: 50%;
 }
 
-uni-tres h1 {
+.uni-tres h1 {
   font-size: 4rem;
 }
-uni-tres h2 {
+.uni-tres h2 {
   font-size: 3rem;
 }
-uni-tres h3 {
+.uni-tres h3 {
   font-size: 3rem;
 }
-uni-tres h4 {
+.uni-tres h4 {
   font-size: 3rem;
 }
-uni-tres p {
+.uni-tres p {
   font-size: 2rem;
   text-align: justify;
+}
+.uni-tres img {
+  width: 50%;
+}
+
+.uni-hr {
+  height: 100px;
+  text-align: center;
+  background-image: linear-gradient(left, #fff, #000, #fff);
 }
 
 .red-tit h1 {

@@ -1,17 +1,20 @@
 .uni-tit{
     h1{
         font-size: $font-size-h1;
+        text-decoration: underline;
     }
     
 }
 
+
 .uni-uno{
-    padding-top: 100px;
+    
     h1{
         font-size: $font-size-h1;
     }
     h2{
         font-size: $font-size-h2;
+        text-decoration: underline;
     }
     h3{
         font-size: $font-size-h3;
@@ -35,7 +38,7 @@
 }
 
 
-uni-dos{
+.uni-dos{
 
     h1{
         font-size: $font-size-h1;
@@ -53,12 +56,14 @@ uni-dos{
         font-size: $font-size-p;
         text-align: justify;
     }
-    
+    img{
+        width: 50%;
+    }
    
     
 }
 
-uni-tres{
+.uni-tres{
     h1{
         font-size: $font-size-h1;
     }
@@ -75,6 +80,15 @@ uni-tres{
         font-size: $font-size-p;
         text-align: justify;
     }
-    
+
+    img{
+        width: 50%;
+    }
 }
 
+.uni-hr{
+
+height: 100px;
+text-align: center; 
+background-image: linear-gradient(left, #fff, #000, #fff);
+}
