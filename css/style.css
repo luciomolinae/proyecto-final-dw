@@ -113,17 +113,6 @@ body {
   width: 75%;
 }
 
-@media only screen and (max-width: 1024px) {
-  .auto-text {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .div-foto {
-    width: 100%;
-    margin-left: 0;
-  }
-}
 .tapa img {
   width: 40%;
 }
@@ -225,6 +214,7 @@ body {
 }
 .uni-dos h2 {
   font-size: 3rem;
+  text-decoration: underline;
 }
 .uni-dos h3 {
   font-size: 3rem;
@@ -246,6 +236,7 @@ body {
 }
 .uni-tres h2 {
   font-size: 3rem;
+  text-decoration: underline;
 }
 .uni-tres h3 {
   font-size: 3rem;
